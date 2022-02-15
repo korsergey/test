@@ -318,7 +318,7 @@ li {
     .nav-list {
        display: none;
        padding: 40px 30px;
-       width: 45%;
+       width: 300px;
        gap: 10px;
        flex-wrap: nowrap;
        
@@ -364,12 +364,12 @@ li {
     }
     .examples span {
         display: inline-block;
-        animation-name: titleAnimation;
-        animation-timing-function: ease;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        font-size: 0.8rem;
     }
+    /* .nav-list{
+        width: 60%;
+    }
+        */
+
 }
 
 @media(max-width:460px){
